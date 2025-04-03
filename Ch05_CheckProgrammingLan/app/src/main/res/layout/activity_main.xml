@@ -26,35 +26,30 @@
         android:id="@+id/Python"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onclick="onCheckboxClicked"
         android:text="Python" />
 
     <CheckBox
         android:id="@+id/JavaScript"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onclick="onCheckboxClicked"
         android:text="JavaScript" />
 
     <CheckBox
         android:id="@+id/Go"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onclick="onCheckboxClicked"
         android:text="Go" />
 
     <CheckBox
         android:id="@+id/Rust"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onclick="onCheckboxClicked"
         android:text="Rust" />
 
     <CheckBox
         android:id="@+id/Kotlin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onclick="onCheckboxClicked"
         android:text="Kotlin" />
 
     <LinearLayout
@@ -63,14 +58,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/DoneButton"
+            android:id="@+id/Done"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Done" />
 
         <Button
-            android:id="@+id/cancelButton"
+            android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

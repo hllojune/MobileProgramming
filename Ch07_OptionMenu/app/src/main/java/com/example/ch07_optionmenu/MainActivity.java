@@ -46,3 +46,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
+/**
+ * Problemm: 에러 발생
+ * ERROR: D:\AndroidStudioProjects\Ch07_OptionMenu\app\src\main\res\menu\mymenu.xml:9: AAPT: error: 'id/blue' is incompatible with attribute id (attr) reference.
+ * 
+ * [Android / Kotlin ] is incompatible with attribute id (attr) reference 에러해결
+ * 출처: https://rlory.tistory.com/27 [우당탕탕 개발공부:티스토리]
+ */
